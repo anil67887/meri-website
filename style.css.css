@@ -1,0 +1,130 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+
+
+body{
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+   position: absolute;
+}
+
+#btn{
+  float: right;
+  width: 200px;
+  height: 30px;
+  margin-top: 22px;
+  background-color: rgb(180, 230, 0);
+  font-family: 'Courier New', sans-serif;
+}
+
+
+#main{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(29, 159, 235);
+    display: block;
+    
+}
+
+.brand{
+    color: rgb(27, 26, 26);
+   margin-left: 20px;
+   padding-top: 10px;
+   font-family: 'Courier New', Courier, monospace;
+     display: block;
+}
+
+
+
+.navbar{
+    background-color: red;
+    width: 100%;
+    height: 40px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+      display: block;
+}
+
+.nav2{
+    background-color: rgb(0, 218, 207);
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 22px;
+      display: block;
+}
+#sbtn{
+    width: 30vw;
+    height: 4vh;
+   margin: 10px;
+   text-align: center;
+     display: block;
+}
+button{
+    width: 12vw;
+    height: 4vh;
+   margin-left: -10px;
+     display: block;
+     margin: 10px;
+}
+
+
+.nav4{
+    background-color: rgb(0, 255, 13);
+    width: 100%;
+    height: 40px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 22px;
+      display: block;
+}
+
+.nav5{
+    background-color: rgb(255, 35, 237);
+    width: 100%;
+    height: 40px;
+    margin-top: 60px;
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+      display: block;
+}
+
+@media (max-width: 600px){
+  #main{
+    background-color: rgb(255, 255, 52);
+    width: 100%;
+    display:block;
+
+
+#btn{
+  margin-top: 10px;
+  width: 100px;
+  float: right;
+
+
+
+
+  #sbtn{
+    width: 170px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 10px;
+  }
+  button{
+   width: 20vw;
+   height: 30px;
+   float: left;
+   margin-top: -8px;
+  }
+
+  }
+}
